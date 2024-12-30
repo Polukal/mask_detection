@@ -8,7 +8,7 @@ class WebcamDemo:
     def __init__(self, model, device):
         self.model = model
         self.device = device
-        self.model.eval()wq
+        self.model.eval()
 
         # Initialize webcam
         self.cap = cv2.VideoCapture(0)
